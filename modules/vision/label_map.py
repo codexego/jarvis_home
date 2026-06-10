@@ -1,0 +1,98 @@
+"""Mapeo de etiquetas COCO/YOLO a español."""
+
+from __future__ import annotations
+
+# COCO class names (inglés) → español con artículo
+COCO_ES: dict[str, str] = {
+    "person": "una persona",
+    "bicycle": "una bicicleta",
+    "car": "un coche",
+    "motorcycle": "una moto",
+    "airplane": "un avión",
+    "bus": "un autobús",
+    "train": "un tren",
+    "truck": "un camión",
+    "boat": "un barco",
+    "traffic light": "un semáforo",
+    "fire hydrant": "una boca de incendios",
+    "stop sign": "una señal de stop",
+    "parking meter": "un parquímetro",
+    "bench": "un banco",
+    "bird": "un pájaro",
+    "cat": "un gato",
+    "dog": "un perro",
+    "horse": "un caballo",
+    "sheep": "una oveja",
+    "cow": "una vaca",
+    "elephant": "un elefante",
+    "bear": "un oso",
+    "zebra": "una cebra",
+    "giraffe": "una jirafa",
+    "backpack": "una mochila",
+    "umbrella": "un paraguas",
+    "handbag": "un bolso",
+    "tie": "una corbata",
+    "suitcase": "una maleta",
+    "frisbee": "un frisbee",
+    "skis": "unos esquís",
+    "snowboard": "una tabla de snowboard",
+    "sports ball": "una pelota",
+    "kite": "una cometa",
+    "baseball bat": "un bate de béisbol",
+    "baseball glove": "un guante de béisbol",
+    "skateboard": "un monopatín",
+    "surfboard": "una tabla de surf",
+    "tennis racket": "una raqueta de tenis",
+    "bottle": "una botella",
+    "wine glass": "una copa de vino",
+    "cup": "una taza",
+    "fork": "un tenedor",
+    "knife": "un cuchillo",
+    "spoon": "una cuchara",
+    "bowl": "un bol",
+    "banana": "un plátano",
+    "apple": "una manzana",
+    "sandwich": "un sándwich",
+    "orange": "una naranja",
+    "broccoli": "un brócoli",
+    "carrot": "una zanahoria",
+    "hot dog": "un perrito caliente",
+    "pizza": "una pizza",
+    "donut": "una dona",
+    "cake": "un pastel",
+    "chair": "una silla",
+    "couch": "un sofá",
+    "potted plant": "una planta",
+    "bed": "una cama",
+    "dining table": "una mesa",
+    "toilet": "un inodoro",
+    "tv": "una televisión",
+    "laptop": "un portátil",
+    "mouse": "un ratón",
+    "remote": "un mando a distancia",
+    "keyboard": "un teclado",
+    "cell phone": "un teléfono móvil",
+    "microwave": "un microondas",
+    "oven": "un horno",
+    "toaster": "una tostadora",
+    "sink": "un fregadero",
+    "refrigerator": "una nevera",
+    "book": "un libro",
+    "clock": "un reloj",
+    "vase": "un jarrón",
+    "scissors": "unas tijeras",
+    "teddy bear": "un osito de peluche",
+    "hair drier": "un secador",
+    "toothbrush": "un cepillo de dientes",
+}
+
+
+def to_spanish(label: str) -> str:
+    """Traduce etiqueta YOLO a frase en español."""
+    key = label.lower().strip()
+    return COCO_ES.get(key, f"un {key}")
+
+
+def translate_labels(labels: list[str]) -> list[str]:
+    """Traduce lista de etiquetas únicas."""
+    return [to_spanish(l) for l in labels]

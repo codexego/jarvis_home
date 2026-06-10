@@ -1,0 +1,143 @@
+2026-06-08 18:00:23 | INFO     | jarvis.core | === Jarvis Home iniciando ===
+2026-06-08 18:00:23 | INFO     | jarvis.event_bus | EventBus iniciado
+2026-06-08 18:00:23 | INFO     | jarvis.registry | Instancias creadas: 6 módulo(s)
+2026-06-08 18:00:23 | INFO     | jarvis.voice_listener | Iniciando módulo
+2026-06-08 18:00:23 | INFO     | jarvis.voice_listener | VoiceListener listo (stub)
+2026-06-08 18:00:23 | INFO     | jarvis.voice_listener | Módulo activo
+2026-06-08 18:00:23 | INFO     | jarvis.vision_module | Iniciando módulo
+2026-06-08 18:00:23 | INFO     | jarvis.vision_module | VisionModule listo (stub)
+2026-06-08 18:00:23 | INFO     | jarvis.vision_module | Módulo activo
+2026-06-08 18:00:23 | INFO     | jarvis.screen_monitor | Iniciando módulo
+2026-06-08 18:00:23 | INFO     | jarvis.screen_monitor | ScreenMonitor listo (stub)
+2026-06-08 18:00:23 | INFO     | jarvis.screen_monitor | Módulo activo
+2026-06-08 18:00:23 | INFO     | jarvis.ai_brain | Iniciando módulo
+2026-06-08 18:00:23 | INFO     | jarvis.ai_brain | AIBrain listo (stub)
+2026-06-08 18:00:23 | INFO     | jarvis.ai_brain | Módulo activo
+2026-06-08 18:00:23 | INFO     | jarvis.executor | Iniciando módulo
+2026-06-08 18:00:23 | INFO     | jarvis.executor | Executor listo (stub)
+2026-06-08 18:00:23 | INFO     | jarvis.executor | Módulo activo
+2026-06-08 18:00:23 | INFO     | jarvis.memory | Iniciando módulo
+2026-06-08 18:00:23 | INFO     | jarvis.memory | Memory listo (stub) | almacenamiento en memoria
+2026-06-08 18:00:23 | INFO     | jarvis.memory | Módulo activo
+2026-06-08 18:00:23 | INFO     | jarvis.core | Sistema listo | módulos activos: voice_listener, vision_module, screen_monitor, ai_brain, executor, memory
+2026-06-08 18:00:23 | INFO     | jarvis.core | Ejecutando en modo continuo (Ctrl+C para detener)
+2026-06-08 18:33:39 | INFO     | jarvis.core | === Jarvis Home iniciando ===
+2026-06-08 18:33:39 | INFO     | jarvis.event_bus | EventBus iniciado
+2026-06-08 18:33:39 | INFO     | jarvis.registry | Instancias creadas: 6 módulo(s)
+2026-06-08 18:33:39 | INFO     | jarvis.voice_listener | Iniciando módulo
+2026-06-08 18:33:39 | INFO     | jarvis.vosk_engine | Modelo VOSK cargado: C:\Users\alien\Desktop\Jarvis Home\models\vosk-model-small-en-us-0.15
+2026-06-08 18:33:39 | INFO     | jarvis.wake_word | WakeWordDetector listo | wake_word='jarvis'
+2026-06-08 18:33:40 | INFO     | jarvis.stt | SpeechRecognizer listo
+2026-06-08 18:33:40 | INFO     | jarvis.audio_capture | Captura de audio iniciada | rate=16000 | blocksize=480 | device=default
+2026-06-08 18:33:40 | INFO     | jarvis.voice_listener | VoiceListener activo | wake='jarvis' | modo pasivo con VAD
+2026-06-08 18:33:40 | INFO     | jarvis.voice_listener | Módulo activo
+2026-06-08 18:33:40 | INFO     | jarvis.vision_module | Iniciando módulo
+2026-06-08 18:33:40 | INFO     | jarvis.vision_module | VisionModule listo | cámara bajo demanda | modelo=yolov8n.pt
+2026-06-08 18:33:40 | INFO     | jarvis.vision_module | Módulo activo
+2026-06-08 18:33:40 | INFO     | jarvis.screen_monitor | Iniciando módulo
+2026-06-08 18:33:40 | INFO     | jarvis.screen_monitor | ScreenMonitor listo | captura bajo demanda
+2026-06-08 18:33:40 | INFO     | jarvis.screen_monitor | Módulo activo
+2026-06-08 18:33:40 | INFO     | jarvis.ai_brain | Iniciando módulo
+2026-06-08 18:33:44 | WARNING  | jarvis.llm_client | Ollama no disponible en http://localhost:11434 (modo reglas local)
+2026-06-08 18:33:44 | INFO     | jarvis.ai_brain | AIBrain listo | modo reglas local (Ollama no detectado)
+2026-06-08 18:33:44 | INFO     | jarvis.ai_brain | Módulo activo
+2026-06-08 18:33:44 | INFO     | jarvis.executor | Iniciando módulo
+2026-06-08 18:33:44 | INFO     | jarvis.executor | Executor listo | modo=live | confirmacion=voz requerida
+2026-06-08 18:33:44 | INFO     | jarvis.executor | Módulo activo
+2026-06-08 18:33:44 | INFO     | jarvis.memory | Iniciando módulo
+2026-06-08 18:33:44 | INFO     | jarvis.memory_store | MemoryStore listo: C:\Users\alien\Desktop\Jarvis Home\data\jarvis_memory.db
+2026-06-08 18:33:44 | INFO     | jarvis.memory | Memory listo | db=C:\Users\alien\Desktop\Jarvis Home\data\jarvis_memory.db | interacciones=0 | habitos=0 | prefs=0
+2026-06-08 18:33:44 | INFO     | jarvis.memory | Módulo activo
+2026-06-08 18:33:44 | INFO     | jarvis.core | Sistema listo | módulos activos: voice_listener, vision_module, screen_monitor, ai_brain, executor, memory
+2026-06-08 18:33:44 | INFO     | jarvis.core | Ejecutando en modo continuo (Ctrl+C para detener)
+2026-06-09 05:00:29 | INFO     | jarvis.core | === Jarvis Home iniciando ===
+2026-06-09 05:00:29 | INFO     | jarvis.event_bus | EventBus iniciado
+2026-06-09 05:00:29 | INFO     | jarvis.registry | Instancias creadas: 7 módulo(s)
+2026-06-09 05:00:29 | INFO     | jarvis.voice_listener | Iniciando módulo
+2026-06-09 05:00:30 | INFO     | jarvis.vosk_engine | Modelo VOSK cargado: C:\Users\alien\Desktop\Jarvis Home\models\vosk-model-small-en-us-0.15
+2026-06-09 05:00:30 | INFO     | jarvis.wake_word | WakeWordDetector listo | wake_word='jarvis'
+2026-06-09 05:00:30 | INFO     | jarvis.stt | SpeechRecognizer listo
+2026-06-09 05:00:30 | INFO     | jarvis.audio_capture | Captura de audio iniciada | rate=16000 | blocksize=480 | device=default
+2026-06-09 05:00:30 | INFO     | jarvis.voice_listener | VoiceListener activo | wake='jarvis' | modelo=vosk-model-small-en-us-0.15 | VAD=2
+2026-06-09 05:00:30 | INFO     | jarvis.voice_listener | Módulo activo
+2026-06-09 05:00:30 | INFO     | jarvis.vision_module | Iniciando módulo
+2026-06-09 05:00:30 | INFO     | jarvis.vision_module | VisionModule listo | cámara bajo demanda | modelo=yolov8n.pt
+2026-06-09 05:00:30 | INFO     | jarvis.vision_module | Módulo activo
+2026-06-09 05:00:30 | INFO     | jarvis.screen_monitor | Iniciando módulo
+2026-06-09 05:00:30 | INFO     | jarvis.screen_monitor | ScreenMonitor listo | captura bajo demanda
+2026-06-09 05:00:30 | INFO     | jarvis.screen_monitor | Módulo activo
+2026-06-09 05:00:30 | INFO     | jarvis.ai_brain | Iniciando módulo
+2026-06-09 05:00:35 | WARNING  | jarvis.llm_client | Ollama no disponible en http://localhost:11434 (modo reglas local)
+2026-06-09 05:00:35 | INFO     | jarvis.ai_brain | AIBrain listo | modo reglas local (Ollama no detectado)
+2026-06-09 05:00:35 | INFO     | jarvis.ai_brain | Módulo activo
+2026-06-09 05:00:35 | INFO     | jarvis.executor | Iniciando módulo
+2026-06-09 05:00:35 | INFO     | jarvis.executor | Executor listo | modo=live | confirmacion=voz requerida
+2026-06-09 05:00:35 | INFO     | jarvis.executor | Módulo activo
+2026-06-09 05:00:35 | INFO     | jarvis.memory | Iniciando módulo
+2026-06-09 05:00:35 | INFO     | jarvis.memory_store | MemoryStore listo: C:\Users\alien\Desktop\Jarvis Home\data\jarvis_memory.db
+2026-06-09 05:00:35 | INFO     | jarvis.memory | Memory listo | db=C:\Users\alien\Desktop\Jarvis Home\data\jarvis_memory.db | interacciones=0 | habitos=0 | prefs=0
+2026-06-09 05:00:35 | INFO     | jarvis.memory | Módulo activo
+2026-06-09 05:00:35 | INFO     | jarvis.response | Iniciando módulo
+2026-06-09 05:00:35 | INFO     | jarvis.tts_engine | TTSEngine iniciado
+2026-06-09 05:00:35 | INFO     | jarvis.response | ResponseModule listo | TTS=True | UI=False
+2026-06-09 05:00:35 | INFO     | jarvis.response | Módulo activo
+2026-06-09 05:00:35 | INFO     | jarvis.core | Sistema listo | módulos activos: voice_listener, vision_module, screen_monitor, ai_brain, executor, memory, response
+2026-06-09 05:00:35 | INFO     | jarvis.desktop_core | Core Jarvis listo en hilo de fondo
+2026-06-09 05:00:35 | INFO     | jarvis.event_bus | Despachando evento | topic=system.ready | source=core | handlers=2
+2026-06-09 05:00:35 | INFO     | jarvis.memory_store | MemoryStore listo: C:\Users\alien\Desktop\Jarvis Home\data\jarvis_memory.db
+2026-06-09 05:00:35 | WARNING  | jarvis.audio_capture | Estado de audio: input overflow
+2026-06-09 05:01:02 | INFO     | jarvis.wake_word | Wake word detectada: 'jarvis'
+2026-06-09 05:01:02 | INFO     | jarvis.voice_listener | Wake word detectada → modo escucha activa
+2026-06-09 05:01:02 | INFO     | jarvis.event_bus | Despachando evento | topic=voice.wake | source=voice_listener | handlers=2
+2026-06-09 05:01:02 | INFO     | jarvis.event_bus | Despachando evento | topic=voice.listening | source=voice_listener | handlers=2
+2026-06-09 05:01:02 | INFO     | jarvis.event_bus | Despachando evento | topic=ui.speaking | source=response | handlers=1
+2026-06-09 05:01:02 | INFO     | jarvis.event_bus | Despachando evento | topic=ui.speaking | source=response | handlers=1
+2026-06-09 05:01:02 | INFO     | jarvis.tts_engine | Voz TTS seleccionada | rate=168
+2026-06-09 05:01:03 | INFO     | jarvis.voice_listener | Wake word sin comando adicional
+2026-06-09 05:01:04 | INFO     | jarvis.event_bus | Despachando evento | topic=voice.listening | source=voice_listener | handlers=2
+2026-06-09 05:01:26 | INFO     | jarvis.wake_word | Wake word detectada: 'jarvis'
+2026-06-09 05:01:26 | INFO     | jarvis.voice_listener | Wake word detectada → modo escucha activa
+2026-06-09 05:01:26 | INFO     | jarvis.event_bus | Despachando evento | topic=voice.wake | source=voice_listener | handlers=2
+2026-06-09 05:01:26 | INFO     | jarvis.event_bus | Despachando evento | topic=voice.listening | source=voice_listener | handlers=2
+2026-06-09 05:01:26 | INFO     | jarvis.event_bus | Despachando evento | topic=ui.speaking | source=response | handlers=1
+2026-06-09 05:01:26 | INFO     | jarvis.event_bus | Despachando evento | topic=ui.speaking | source=response | handlers=1
+2026-06-09 05:01:29 | INFO     | jarvis.voice_listener | Comando de voz: 'skivvies and the panda yeah'
+2026-06-09 05:01:29 | INFO     | jarvis.event_bus | Despachando evento | topic=voice.command | source=voice_listener | handlers=5
+2026-06-09 05:01:29 | INFO     | jarvis.ai_brain | Procesando comando: skivvies and the panda yeah
+2026-06-09 05:01:29 | INFO     | jarvis.event_bus | Despachando evento | topic=voice.listening | source=voice_listener | handlers=2
+2026-06-09 05:01:29 | INFO     | jarvis.event_bus | Despachando evento | topic=memory.get_context | source=ai_brain | handlers=1
+2026-06-09 05:01:29 | INFO     | jarvis.event_bus | Despachando evento | topic=memory.context | source=memory | handlers=1
+2026-06-09 05:01:29 | INFO     | jarvis.ai_brain | Ruta: intent=chat delegate=None source=rules conf=0.40
+2026-06-09 05:01:29 | INFO     | jarvis.ai_brain | Decision: chat | Puedo ayudarte con la cámara, la pantalla, abrir apps o controlar videos. Di 'Ja
+2026-06-09 05:01:29 | INFO     | jarvis.event_bus | Despachando evento | topic=ai.decision | source=ai_brain | handlers=4
+2026-06-09 05:01:29 | INFO     | jarvis.memory_store | Habito aprendido: 'skivvies and the panda yeah' (chat)
+2026-06-09 05:01:29 | INFO     | jarvis.event_bus | Despachando evento | topic=action.completed | source=executor | handlers=3
+2026-06-09 05:01:29 | INFO     | jarvis.event_bus | Despachando evento | topic=ui.speaking | source=response | handlers=1
+2026-06-09 05:01:29 | INFO     | jarvis.event_bus | Despachando evento | topic=ui.speaking | source=response | handlers=1
+2026-06-09 05:01:35 | INFO     | jarvis.pattern_learner | Mantenimiento memoria | podadas=0 | habitos_sync=1
+2026-06-09 05:01:57 | INFO     | jarvis.core | === Jarvis Home deteniendo ===
+2026-06-09 05:01:57 | INFO     | jarvis.response | Deteniendo módulo
+2026-06-09 05:01:57 | INFO     | jarvis.event_bus | Despachando evento | topic=system.shutdown | source=core | handlers=8
+2026-06-09 05:01:57 | INFO     | jarvis.tts_engine | TTSEngine detenido
+2026-06-09 05:01:57 | INFO     | jarvis.response | Módulo detenido
+2026-06-09 05:01:57 | INFO     | jarvis.memory | Deteniendo módulo
+2026-06-09 05:01:57 | INFO     | jarvis.memory | Memory liberado
+2026-06-09 05:01:57 | INFO     | jarvis.memory | Módulo detenido
+2026-06-09 05:01:57 | INFO     | jarvis.executor | Deteniendo módulo
+2026-06-09 05:01:57 | INFO     | jarvis.executor | Executor liberado
+2026-06-09 05:01:57 | INFO     | jarvis.executor | Módulo detenido
+2026-06-09 05:01:57 | INFO     | jarvis.ai_brain | Deteniendo módulo
+2026-06-09 05:01:57 | INFO     | jarvis.ai_brain | AIBrain liberado
+2026-06-09 05:01:57 | INFO     | jarvis.ai_brain | Módulo detenido
+2026-06-09 05:01:57 | INFO     | jarvis.screen_monitor | Deteniendo módulo
+2026-06-09 05:01:57 | INFO     | jarvis.screen_monitor | ScreenMonitor liberado
+2026-06-09 05:01:57 | INFO     | jarvis.screen_monitor | Módulo detenido
+2026-06-09 05:01:57 | INFO     | jarvis.vision_module | Deteniendo módulo
+2026-06-09 05:01:57 | INFO     | jarvis.vision_module | VisionModule liberado
+2026-06-09 05:01:57 | INFO     | jarvis.vision_module | Módulo detenido
+2026-06-09 05:01:57 | INFO     | jarvis.voice_listener | Deteniendo módulo
+2026-06-09 05:01:57 | INFO     | jarvis.audio_capture | Captura de audio detenida
+2026-06-09 05:01:57 | INFO     | jarvis.voice_listener | VoiceListener liberado
+2026-06-09 05:01:57 | INFO     | jarvis.voice_listener | Módulo detenido
+2026-06-09 05:01:57 | INFO     | jarvis.event_bus | EventBus detenido
+2026-06-09 05:01:57 | INFO     | jarvis.core | === Jarvis Home detenido ===

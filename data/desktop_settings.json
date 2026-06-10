@@ -1,0 +1,11 @@
+{
+  "llm_model": "llama3.2",
+  "tts_volume": 1.0,
+  "tts_rate": 168,
+  "voice_enabled": true,
+  "vision_enabled": true,
+  "screen_enabled": true,
+  "startup_with_windows": false,
+  "window_width": 1100,
+  "window_height": 780
+}

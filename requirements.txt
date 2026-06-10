@@ -1,0 +1,31 @@
+# Jarvis Home - dependencias
+
+# voice_listener (offline STT + captura de audio)
+vosk>=0.3.45
+sounddevice>=0.4.6
+
+# response (TTS offline)
+pyttsx3>=2.90
+
+# desktop UI
+PySide6>=6.6.0
+
+# build executable
+pyinstaller>=6.0.0
+
+# vision_module (cámara bajo demanda + YOLO local)
+opencv-python-headless>=4.8.0
+ultralytics>=8.0.0
+numpy>=1.24.0
+
+# screen_monitor (captura bajo demanda + OCR + acciones)
+mss>=9.0.0
+pyautogui>=0.9.54
+pyperclip>=1.8.2
+pytesseract>=0.3.10
+
+# ai_brain (Ollama via HTTP stdlib; instalar Ollama por separado)
+# https://ollama.com — modelos: llama3.2, mistral, qwen2.5, etc.
+
+# desarrollo / tests
+pytest>=8.0.0
